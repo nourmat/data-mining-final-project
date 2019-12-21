@@ -1,0 +1,3 @@
+Bonus feature:
+	1) adding 2 more ways(mean,mode) to handle missing data in preprocessing
+	2) adding 4 visualisation methods

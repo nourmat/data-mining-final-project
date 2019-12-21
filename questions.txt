@@ -1,0 +1,5 @@
+preprocessing:
+	1)how encoder works
+	2)how to pass only columns requiring encoding to encoder
+	3)how to pass only columns with continous numbers to fillmissing with mode
+	
