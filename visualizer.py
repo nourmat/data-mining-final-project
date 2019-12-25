@@ -29,3 +29,8 @@ class Visualizer():
         df = pd.DataFrame(data,columns=columns)
         sns.pairplot(df)
         plt.show()
+
+    def scatterplot (self,X_test,y_test):
+        plt.scatter(X_test, y_test, color = 'blue')   
+        #plt.plot(X_test, model.predict(X_test), color = 'red') 
+
