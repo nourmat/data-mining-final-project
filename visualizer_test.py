@@ -11,7 +11,7 @@ cols = [i for i in range(0,32)]
 df = pd.read_csv('breast_cancer.csv',index_col=32).drop("id",axis=1).drop("diagnosis",axis=1)
 cols = df.columns
 for i in df.columns:
-    if "mean" not in i:
+    if "radius_mean" not in i and "texture_mean" not in i:
         df = df.drop(i,axis=1)
 vs.Visualizer().boxplot(df.values,df.columns)
 vs.Visualizer().violinplot(df.values,df.columns)
