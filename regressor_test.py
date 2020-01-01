@@ -55,7 +55,6 @@ print("*************************************************")
 
 
 # KNN REgressor
-# params = dict()
 params = dict(n_neighbors = 5)
 regressor = reg.Regressor(type=reg.KNN_REGRESSOR, **params)
 regressor.fit(X_train, y_train)

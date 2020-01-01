@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 import matplotlib
@@ -25,7 +24,7 @@ class Visualizer():
         df = pd.DataFrame(data,columns=columns)
         sns.pairplot(df)
         plt.show()
-
+    # draws a scatter plot between x and y to visualize the data in 2D
     def scatterplot (self,X_test,y_test):
         plt.scatter(X_test, y_test, color = 'blue')   
         #plt.plot(X_test, model.predict(X_test), color = 'red') 
